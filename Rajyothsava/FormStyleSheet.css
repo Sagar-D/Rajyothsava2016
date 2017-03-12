@@ -1,0 +1,57 @@
+h1 {
+	color : white;
+	font-weight : bold;
+	font-size : 40px;
+	text-align : center;
+}
+body {
+	color : white;
+	font-size : 20px;
+	font-family: Tahoma;
+	background-image:url(img2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-height: 1700px;
+	
+   	
+
+
+}
+
+img{
+	max-height = "50px";
+}
+h2 {
+	color : white;
+	font-weight : bold;
+	border-bottom-width:1px;
+	border-bottom-color:white;
+	border-bottom-style:dotted;
+}
+input { 
+	border-width:1px;
+	border-color:red;
+	padding : 5px;
+}
+textarea {
+	border-width:1px;
+	border-color:red;
+	font-size:12px;
+	min-width : 400px
+}
+select{
+	border-width:1px;
+	border-color:red;
+}
+input[type="submit"] { 
+	border-width:1px;
+	border-color:red;
+	padding:7px;
+	width:318px;
+	font-weight:bold;
+	color:red;
+}
+super{
+	color:white;
+	font-size:15px;
+}

@@ -1,0 +1,317 @@
+<!Doctype html>
+
+<html>
+
+<head>
+<title>
+Kannada Rajyotsava 2016
+</title>
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="FormStyleSheet.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+<style>
+	div.myclass{
+	color : white;
+	font-size : 17px;
+	font-family: Tahoma;
+	padding-top: 10px;
+	}
+	input { 
+	border-width:1px;
+	border-color:blue;
+	padding : 5px;
+	color:black;
+	}
+	div.event{
+	color : white;
+	font-size : 17px;
+	font-family: Tahoma;
+	padding-top: 5px;
+	padding-left:10px;
+	
+	}
+	
+</style>
+
+<script type="text/javascript" >
+	
+		function validate() {
+		if(document.stform.name.value==""||document.stform.mobile_no.value==""||document.stform.email.value==""||document.stform.usn.value==""){
+			alert("Please fill the required(*) content");
+			return false;
+		}
+		
+	}
+	
+</script>
+</head>
+
+<body >
+<div style = "color:#530a0b">
+<img src="cover.jpg" class="img-responsive" width="100%" style="padding:0px;margin=0px;" />
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;View <a href = "reg.php">event registrations</a></marquee>
+<h1 style = "color:#530a0b" align="center">KANNADA RAJYOTSAVA 2016</h1>
+<h4 align="center">EVENTS REGISTRATION FORM</h4></br>
+<form name="stform" action="save.php" method="post">
+<div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="myclass">
+<table style="width:100%">
+<tr>
+<td style="padding:10px;margin:10px;"><b> NAME <super>*</super> </b></td>
+<td style="padding:10px;margin:10px;"> <input type="text" name="name" placeholder="Enter full name " /></b></br></td>
+</tr>
+
+<tr>
+<td style="padding:10px;margin:10px;"><b> USN <super>*</super> </b></td>
+<td style="padding:10px;margin:10px;"><input type="text" name="usn" placeholder="Enter your USN" /></b></br></td>
+</tr>
+
+<tr>
+<td style="padding:10px;margin:10px;"><b> MOBILE <super>*</super> </b></td>
+<td style="padding:10px;margin:10px;"><input type="tel" name="mobile_no" maxlength="10" placeholder="10 digits" /></br></td>
+</tr>
+
+<tr>
+<td style="padding:10px;margin:10px;"><b> EMAIL <super>*</super> </b></td>
+<td style="padding:10px;margin:10px;"><input type="text" name="email" placeholder="example@eg.com" /></br></td>
+</tr>
+
+
+</table>
+</div>
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="myclass">
+<h2 align = "center">EVENTS</h2> 
+<div style = "font-size:13px"><center>NOTE: <br/>Some events may be conducted at same time. For event list, <a href="https://drive.google.com/file/d/0B7SmOE225AQVWUxOV25aNEtrWkk/view?usp=sharing" target="_blank" >click here.</a><br/>You may select more than one event as long as there are no clashes. 
+</center></div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="myclass">
+<h3 align="center">DAY 1 - November 14<h3>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">	
+    		
+<input type="checkbox" name="photo" id="photo" value="yes" />
+<label style = "font-size:15px" for="photo">PHOTOGRAPHY - 2:00 - Pitstop</label>
+</div>
+</div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">            
+<input type="checkbox" name="poetry" value="yes" id="poetry"/>
+<label style = "font-size:15px" for="poetry">POETRY - 2:30 - LHC Seminar Hall-1</label>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="cs" value="yes" id="cs" />
+<label style = "font-size:15px" for="cs">COUNTER STRIKE - 2:30 - CAD Lab</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">            
+<input type="checkbox" name="opainting" value="yes" id="onpaint"/>
+<label style = "font-size:15px" for="onpaint">ONSPOT PAINTING - 2:30 - Amphi Theatre</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="stquiz" value="yes" id="stquiz"/>
+<label style = "font-size:15px" for="stquiz">STUDENT QUIZ - 2:30 -HiTech SeminarHall(DES)</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">		
+<input type="checkbox" name="debate" value="yes" id="debate"/>
+<label style = "font-size:15px" for="debate">KANNADA DEBATE - 2:30 - ESB Seminar Hall-2</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="thunt" value="yes" id="thunt"/>
+<label style = "font-size:15px" for="thunt">TREASURE HUNT - 3:30 - Pitstop</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="santhyakshari" value="yes" id="santhyakshari"/>
+<label style = "font-size:15px" for="santhyakshari">STAFF ANTAKSHARI - 3:30 - LHC Seminar Hall-2</label></div></div></div>
+
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="aircrash" value="yes" id="aircrash"/>
+<label style = "font-size:15px" for="aircrash">AIR CRASH - 3:30 - ESB Seminar Hall-1</label></div></div></div>
+
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="streetdance" value="yes" id="stdance"/>
+<label style = "font-size:15px" for="stdance">STREET DANCE - 3:30 - Law Canteen</label></div></div></div>
+			
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="myclass">
+<h3 align="center">DAY 2 - November 15<h4>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">			
+<input type="checkbox" name="dc" value="yes" id="dc"/>
+<label style = "font-size:15px" for="dc">DUMB CHARADES - 12:00 - LHC-1</label></div></div></div>
+ 
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event"> 
+<input type="checkbox" name="creativewriting" value="yes" id="cw"/>
+<label style = "font-size:15px" for="cw">CREATIVE WRITING - 12:00 -6th floor ApexBlock</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="kannadiga" value="yes" id="hk"/>
+<label style = "font-size:15px" for="hk">HEMMEYA KANNADIGA, KANNADATI - 1:30 - </label>ESB Seminar Hall-1</div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="cooking" value="yes" id="cook"/>
+<label style = "font-size:15px" for="cook">COOKING WITHOUT FIRE - 1:30 - Cult Office</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="karaoke" value="yes" id="kk"/>
+<label style = "font-size:15px" for="kk">KARAOKE - 2:40 - HiTech Seminar Hall (DES)</label></div></div></div>
+
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="jam" value="yes" id="jam"/>
+<label style = "font-size:15px" for="jam">KANNADA JAM - 2:40 - ESB Seminar Hall-2</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="voice" value="yes" id="vom"/>
+<label style = "font-size:15px" for="vom">VOICE OF MSRIT - 2:40 - ESB Entrance</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="squiz" value="yes" id="squiz"/>
+<label style = "font-size:15px" for="squiz">STAFF QUIZ - 3:30 - LHC Seminar Hall-1</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="lightvocals" value="yes" id="lightvocals"/>
+<label style = "font-size:15px" for="lightvocals">LIGHT VOCALS - 3:30 - LHC Seminar Hall-2</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="fpainting" value="yes" id="fp"/>
+<label style = "font-size:15px" for="fp">FACE PAINTING - 3:30 - Amphi Theatre</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="anthyakshari" value="yes" id="anth"/>
+<label style = "font-size:15px" for="anth">ANTAKSHARI - 3:30 - Canteen Space</label></div></div></div>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">
+<input type="checkbox" name="personality" value = "yes" id="per"/>
+<label style = "font-size:15px" for="per">PERSONALITY - 4:00 - ESB Seminar Hall-1</label></div></div></div>
+
+
+			
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="myclass">
+<h3 align="center">DAY 3 - November 16<h4>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<div class="event">			
+<input type="checkbox" name="rangoli" value="yes" id="rangoli"/>
+<label style = "font-size:15px" for="rangoli">RANGOLI - 8:00 - Pitstop</label></div></div></div>
+</br></br>
+
+
+<center><input type="submit" name="submit" value="REGISTER" onclick="return validate()" /></center>
+</br></br>
+</form>
+</div>
+</div>
+</body>
+</html>
